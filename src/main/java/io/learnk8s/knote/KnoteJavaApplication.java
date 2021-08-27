@@ -50,7 +50,7 @@ interface NotesRepository extends MongoRepository<Note, String> {
 @Setter
 @Getter
 @NoArgsConstructor
-@AllArgsConstructor
+//@AllArgsConstructor
 class Note {
 	
     @Id
